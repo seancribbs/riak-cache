@@ -16,7 +16,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake'
   gem.add_runtime_dependency "riak-client", "~> 1.0.0.beta"
   gem.add_runtime_dependency "activesupport", "~> 3.0"
-  gem.add_runtime_dependency "i18n", ">=0.4.0"
 
   # Files
   ignores = File.read(".gitignore").split(/\r?\n/).reject{ |f| f =~ /^(#.+|\s*)$/ }.map {|f| Dir[f] }.flatten

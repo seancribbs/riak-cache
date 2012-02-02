@@ -1,12 +1,7 @@
 require 'yaml'
 require 'riak'
 require 'active_support/version'
-
-if ActiveSupport::VERSION::STRING < "3.0.0"
-  raise LoadError, "ActiveSupport 3.0.0 or greater is required to use Riak::CacheStore."
-else
-  require 'active_support/cache'
-end
+require 'active_support/cache'
 
 module Riak
   # An ActiveSupport::Cache::Store implementation that uses Riak.
