@@ -1,0 +1,35 @@
+## MAC OS
+.DS_Store
+
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+
+## PROJECT::GENERAL
+coverage
+rdoc
+pkg
+
+## PROJECT::SPECIFIC
+_notes
+doc
+.yardoc
+.bundle
+spec/support/test_server.yml
+Gemfile.lock
+**/bin
+*.rbc
+.rvmrc
+
+.riaktest
+**/.riaktest
+vendor/erlang
+vendor/riak
