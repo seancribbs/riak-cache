@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   # Deps
   gem.add_development_dependency "rspec", "~>2.8.0"
   gem.add_development_dependency 'rake'
-  gem.add_runtime_dependency "riak-client", "~> 1.0.0.beta"
+  gem.add_runtime_dependency "riak-client", "~> 1.0.0"
   gem.add_runtime_dependency "activesupport", "~> 3.0"
 
   # Files
